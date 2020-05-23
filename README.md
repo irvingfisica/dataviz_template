@@ -1,8 +1,8 @@
 # dataviz_template
-El repo es un template para armar dataviz en html, usando D3js
+El repo es un template para armar dataviz en html, usando [D3js](https://d3js.org/).
 
 ## Maquetado
-El maquetado de la web se realiza con [Bootstrap](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
+El maquetado de la web se realiza con [Bootstrap](https://getbootstrap.com/docs/4.5/getting-started/introduction/).
 
 ## Recetas
 El repositorio contiene algunas recetas que se usan de forma regular en la creación de dataviz y mapas. Por ahora todo está en el archivo ejemplos.js, eventualmente se puede hacer un archivo para cada receta. Las recetas hasta ahora son:
@@ -33,7 +33,7 @@ Es preferible que las capas de polígonos estén en formato Topojson, el repo us
 ├── data               
 ├── imagenes           
 ├── js 
-│	├── ejemplos.js           
+│   ├── ejemplos.js           
 │   └── scripta.js           
 └── librerias                 
     ├── bootstrap           
