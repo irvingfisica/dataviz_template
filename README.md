@@ -14,6 +14,9 @@ El repositorio contiene algunas recetas que se usan de forma regular en la creac
 ## D3js
 Las visualizaciones y gráficas se arman con [D3js](https://d3js.org/).
 
+## P5js
+La librería [P5js](https://p5js.org/) permite hacer gráficas usando el canvas y tiene muchas funcionalidades para manejar interacción, sonido, movimiento. Su enfoque es código creativo.
+
 ## Carga de archivos
 El repo perimte cargar datos vía [D3js](https://d3js.org/) y archivos de datos zippeados vía [PakoJS](https://github.com/nodeca/pako) + [D3js](https://d3js.org/). La técnica de mandar datos zippeados y descomprimirlos en el cliente permite cargar bases de datos bastante grandes en las visualizaciones de datos. Es especialmente útil para cargar Topojsons con muchos polígonos, por ejemplo los municipios.
 
@@ -42,5 +45,6 @@ Es preferible que las capas de polígonos estén en formato Topojson, el repo us
     ├── jquery    
     ├── leaflet         
     ├── pako 
+    ├── p5
     └── topojson 
 ```
